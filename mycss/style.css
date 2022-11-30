@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Fjalla One', sans-serif; */
+  /* font-family: 'Noto Serif JP', serif; */
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  height: 12vh;
+  background-color: black;
+  color: white;
+}
+.logo {
+  display: flex;
+  padding: 1vh 2vw;
+  float: left;
+}
+/* .logo p{
+    width: 15vw;
+    height: 10vh;
+    margin: auto;
+    font-size: xxx-large;
+    padding: 4px;
+} */
+.logo img {
+  width: 15vw;
+  height: 10vh;
+}
+.search {
+  display: flex;
+  float: center;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 3vh 1vw;
+}
+.search input {
+  width: 25vw;
+  height: 4vh;
+  border-radius: 10px;
+  margin: 0 16px 0 45px;
+  font-size: medium;
+  padding: 3px;
+}
+.btn {
+  border-radius: 8px;
+  border: 2px solid white;
+  font-weight: 900;
+  width: 5vw;
+  height: 5vh;
+}
+.options {
+  display: flex;
+  float: right;
+}
+.options ul li {
+  display: inline-flex;
+  list-style: none;
+  padding: 24px;
+  font-size: x-large;
+}
+.options ul li a {
+  color: white;
+  text-decoration: none;
+}
+.options ul li a:hover {
+  font-weight: bolder;
+  color: cadetblue;
+}
+.container {
+  min-height: 80vh;
+}
+.imgbg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+.carts {
+  max-width: 91vw;
+  margin: 37px auto;
+}
+.cart-head {
+  display: flex;
+  overflow: scroll;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.text-center {
+  text-align: center;
+}
+.my-1 {
+  margin: 5px 0;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 9vh;
+}
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
